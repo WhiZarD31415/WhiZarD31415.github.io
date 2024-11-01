@@ -13,3 +13,5 @@ class Page {
         this.render();
     }
 }
+
+export default Page;

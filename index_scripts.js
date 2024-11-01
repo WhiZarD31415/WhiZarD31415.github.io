@@ -1,4 +1,4 @@
-import WelcomePage from "WelcomePage.js";
+import WelcomePage from "./classes/Welcome/WelcomePage";
 
 const welcomePage = new WelcomePage("This is a welcome!");
 welcomePage.render();

@@ -1,4 +1,4 @@
-import Page from "../Page.js";
+import Page from "./Page.js";
 
 class ClubPage extends Page {
     constructor(content) {

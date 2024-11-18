@@ -1,0 +1,46 @@
+/* Basic styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Dark background */
+    overflow: hidden; /* Clear floats for the links */
+    text-align: center; /* Center the links */
+}
+
+/* Style the navigation links */
+nav a {
+    display: inline-block; /* Links are displayed inline */
+    color: white; /* Text color */
+    padding: 14px 20px; /* Padding around the text */
+    text-decoration: none; /* Remove underline */
+    text-transform: uppercase; /* Uppercase letters */
+    font-weight: bold; /* Bold font */
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #575757; /* Darker background on hover */
+}
+
+/* Active link state */
+nav a.active {
+    background-color: #4CAF50; /* Green background for the active link */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    nav {
+        text-align: left; /* Align links to the left on small screens */
+    }
+    nav a {
+        display: block; /* Stack the links vertically */
+        width: 100%; /* Make links take up full width */
+        text-align: left; /* Left-align the text */
+    }
+}
